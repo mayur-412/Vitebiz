@@ -46,7 +46,6 @@ ul,ol{
 	display: table-cell;
 	vertical-align: middle;
 }
-
 /* mobile-menu style start */
 .mobile-menu a img:last-child{
 	display: none;
@@ -572,34 +571,16 @@ nav ul li a:hover{
 .four-section .top-tx h2{
 	max-width: none;
 }
-.slider-sec{
-	display: flex;
-	align-items: center;
-	gap: 70px;
-	margin-top: 80px;
+.slick-item {
+    opacity: 0.4;
+    transform: scale(0.7);
 }
-.slid{
-	flex: 1;
-	background: #469BFF;
-	padding: 20px;
-	border-radius: 20px;
+.active .item, .slick-center {
+  opacity: 1;
+  transform: scale(1);
 }
-.slid-t{
-	background: #65E996;
-	padding: 15px;
-	border-radius: 15px;
-}
-.slid-t h2{
-	font-size: 20px;
-	line-height: 22px;
-	color: #fff;
-}
-.slid-t p{
-	font-size: 16px;
-	line-height: 18px;
-	color: #fff;
-	display: inline-block;
-	margin-top: 10px;
+.slick-carousel{
+	margin-top: 25px;
 }
 /* four-section style end */
 
@@ -737,6 +718,7 @@ nav ul li a:hover{
 	line-height: 37px;
 	color: #000;
 }
+
 /* six-section style end */
 
 
@@ -760,10 +742,7 @@ nav ul li a:hover{
 	padding-left: 40px;
 	padding-right: 40px;
 }
-.slider-sec{
-	margin-top: 30px;
-	gap: 20px;
-}
+
 .top-banner:after{
 	bottom: -160px;
 }
@@ -887,7 +866,10 @@ nav ul li a:hover{
 }
 
 @media (max-width: 767px){
-
+.secound-section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .header{
 	position: relative;
 }
@@ -925,7 +907,7 @@ nav ul li a:hover{
 .post-sec, .left-box .button{
 	margin-top: 20px;
 }
-.flex-sec, .top-head, .flex-box, .flex-two, .slider-sec, .last-box, .footer-sec{
+.flex-sec, .top-head, .flex-box, .flex-two, .last-box, .footer-sec{
 	flex-wrap: wrap;
 	gap: 20px;
 	text-align: center;
