@@ -990,8 +990,11 @@ nav ul li a:hover{
     max-width: none;
     margin-top: 15px;
 }
-.media {
+.media, .footer-box {
+    display: block;
     text-align: center;
+    width: 100%;
+    float: left;
 }
 .footer-box span, .footer-box ul {
     float: none;
@@ -1003,6 +1006,22 @@ nav ul li a:hover{
 }
 .box, .slid, .left-box, .footer{
 	flex: 100%;
+}
+.footer-sec {
+    display: block;
+    width: 100%;
+    float: left;
+}
+.footer-sec .footer:first-child{
+	width: 100%;
+}
+.footer {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+.footer ul li {
+    margin-top: 5px;
 }
 .text-box {
     flex: 100%;
