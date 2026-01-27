@@ -1,16 +1,16 @@
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:80,
-    nav:false,
-    responsive:{
-        767:{
-            items:3
-        },
-        768:{
-            items:5
-        }
-    }
-})
+// $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     margin:80,
+//     nav:false,
+//     responsive:{
+//         767:{
+//             items:3
+//         },
+//         768:{
+//             items:5
+//         }
+//     }
+// })
 
 document.addEventListener(
                 "DOMContentLoaded", () => {
@@ -25,14 +25,14 @@ document.addEventListener(
             );
 
 
+
 $('.slick-carousel').slick({
   centerMode: true,
   slidesToShow: 3,
-  centerPadding: '60px',
   dots: false,
-  arrows:false,
-  autoplay: true,
-  autoplaySpeed: 2000,
+  // autoplay: true,
+  arrows: false,
+  autoplaySpeed: 3000,
   pauseOnHover: true,
   pauseOnDotsHover: true,
   edgeFriction: 0.05,

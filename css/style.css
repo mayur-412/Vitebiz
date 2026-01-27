@@ -572,15 +572,52 @@ nav ul li a:hover{
 	max-width: none;
 }
 .slick-item {
-    opacity: 0.4;
-    transform: scale(0.7);
+    /*opacity: 0.4;*/
+    transform: scale(0.6);
+}
+.slick-item{
+	background: #fff;
+	border-radius: 20px;
+	padding: 20px;
+}
+.one, .one-box, .one-slick{
+	height: 110px;
+	background: #469BFF;
+	border-radius: 20px;
+}
+.two, .two-box, .two-slick{
+	background: #469BFF;
+	height: 265px;
+	border-radius: 20px;
+}
+.one-box, .two-box{
+	background: #FEC0C1;
+}
+.one-slick, .two-slick{
+	background: #65E996;
+}
+
+.slick-head{
+	padding-bottom: 20px;
+}
+.slick-head h2{
+	font-size: 20px;
+	line-height: 22px;
+	color: #0E0E0E;
+	font-weight: 600;
+}
+.slick-head p{
+	font-size: 16px;
+	line-height: 18px;
+	color: #717171;
+	font-weight: 500;
 }
 .active .item, .slick-center {
   opacity: 1;
   transform: scale(1);
 }
 .slick-carousel{
-	margin-top: 25px;
+	margin-top: 50px;
 }
 /* four-section style end */
 
@@ -727,6 +764,15 @@ nav ul li a:hover{
 
 @media (max-width: 1120px){
 
+.slick-carousel {
+    margin-top: 25px;
+}
+.one, .one-box, .one-slick {
+    height: 100px;
+}
+.two, .two-box, .two-slick {
+    height: 215px;
+}
 .header .table{
 	position: relative;
 	z-index: 1;
@@ -808,6 +854,10 @@ nav ul li a:hover{
 .five-section{
 	padding-left: 20px;
 }	
+.top-banner h2, .top-tx h2, .top-head h2, .left-box h2 {
+    font-size: 45px;
+    line-height: 47px;
+}
 }
 
 
@@ -854,6 +904,12 @@ nav ul li a:hover{
 .post-section {
     margin-top: 83px;
 }
+.one, .one-box, .one-slick {
+    height: 60px;
+}
+.two, .two-box, .two-slick {
+    height: 155px;
+}
 }
 
 
@@ -866,6 +922,7 @@ nav ul li a:hover{
 }
 
 @media (max-width: 767px){
+
 .secound-section {
     padding-left: 20px;
     padding-right: 20px;
