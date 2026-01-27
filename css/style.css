@@ -46,6 +46,9 @@ ul,ol{
 	display: table-cell;
 	vertical-align: middle;
 }
+.slick-slide .inner {
+  margin: 0 15px;
+}
 /* mobile-menu style start */
 .mobile-menu a img:last-child{
 	display: none;
@@ -214,11 +217,8 @@ nav ul li a:hover{
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
-.post-sec{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin-top: 32px;
+.marquee{
+	margin-top: 30px;
 }
 .text-sec p{
 	font-size: 16px;
@@ -393,6 +393,7 @@ nav ul li a:hover{
 	color: #000000a3;
 	display: inline-block;
 	max-width: 320px;
+	margin-top: 15px;
 }
 .post-bg {
     background: #000;
@@ -924,6 +925,10 @@ nav ul li a:hover{
 
 @media (max-width: 767px){
 
+.button a:last-child{
+	margin-top: 10px;
+	margin-left: 0;
+}
 .secound-section {
     padding-left: 20px;
     padding-right: 20px;
@@ -951,10 +956,13 @@ nav ul li a:hover{
 .banner{
 	padding-top: 40px;
 }
-.header, .first-section {
+.header, .first-section, .banner-section{
     padding-bottom: 40px;
 }
-.banner-section, .top-banner, .third-section, .six-section {
+.banner-section{
+	padding-top: 0;
+}
+.top-banner, .third-section, .six-section {
     padding-top: 40px;
     padding-bottom: 40px;
 }

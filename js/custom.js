@@ -1,17 +1,20 @@
-// $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:80,
-//     nav:false,
-//     responsive:{
-//         767:{
-//             items:3
-//         },
-//         768:{
-//             items:5
-//         }
-//     }
-// })
 
+jQuery(document).ready(function($) {
+  $('.slick.marquee').slick({
+    speed: 5000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    centerMode: true,
+    cssEase: 'linear',
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    infinite: true,
+    initialSlide: 1,
+    arrows: false,
+    buttons: false
+  });
+});
 document.addEventListener(
                 "DOMContentLoaded", () => {
                     new Mmenu( "#menu", {
@@ -61,8 +64,6 @@ $('.slick-carousel').slick({
         slidesToScroll: 1
       }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
+
   ]
 });
