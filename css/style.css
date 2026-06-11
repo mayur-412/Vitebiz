@@ -376,6 +376,7 @@ nav ul li a:hover{
 	background: #000;
 	/*overflow: hidden;*/
 	position: relative;
+	padding-bottom: 68px;
 }
 .secound-section:after {
     content: "";
@@ -384,7 +385,7 @@ nav ul li a:hover{
     width: 674px;
     height: 220px;
     right: 0;
-    bottom: -74px;
+    bottom: 6px;
 }
 .top-tx{
 	text-align: center;
