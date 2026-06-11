@@ -76,6 +76,26 @@ ul,ol{
 /* mobile-menu style end */
 
 
+/* animation css */
+
+.animatable {
+  /* initially hide animatable objects */
+  visibility: hidden;
+
+  /* initially pause animatable objects their animations */
+  animation-play-state: paused;
+}
+
+/* show objects being animated */
+.animated {
+  visibility: visible;
+
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-play-state: running;
+}
+
+
 /* header-section style start */
 
 .header{
@@ -84,6 +104,10 @@ ul,ol{
 	padding-bottom: 105px;
 	background: url(../images/bg.png) no-repeat top center;
 	overflow: hidden;
+}
+.header .table{
+	position: relative;
+    z-index: 2;
 }
 .header:after {
     content: "";
