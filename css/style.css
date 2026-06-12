@@ -851,6 +851,7 @@ nav ul li a:hover{
 .banner{
 	padding-top: 60px;
 	text-align: center;
+	display: none;
 }
 .post-section .post-box:nth-child(2):after{
 	right: -159px;
@@ -866,10 +867,10 @@ nav ul li a:hover{
 	left: -123px;
 }
 .banner h1, .banner h2{
-	display: inline-block;
+	display: none;
 }
 .d-flex{
-	padding-top: 0;
+	padding-top: 30px;
 }
 .right-bg {
     margin-left: 0;
@@ -949,7 +950,10 @@ nav ul li a:hover{
 }
 
 @media (max-width: 767px){
-
+.top-banner h2, .top-tx h2, .top-head h2, .left-box h2 {
+    font-size: 33px;
+    line-height: 36px;
+}
 .button a:last-child{
 	margin-top: 10px;
 	margin-left: 0;
@@ -957,6 +961,12 @@ nav ul li a:hover{
 .secound-section {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 0;
+}
+.box-one h2 {
+    font-size: 23px;
+    line-height: 26px;
+    color: #3475BF;
 }
 .header{
 	position: relative;
@@ -1063,8 +1073,8 @@ nav ul li a:hover{
     max-width: none;
 }
 .left-box h2{
-	font-size: 40px;
-	line-height: 42px;
+	font-size: 29px;
+	line-height: 35px;
 }
 .post-nb{
 	display: none;
